@@ -1,5 +1,14 @@
-const ContactPage = () => {
-  return <div>ContactPage</div>;
+import Image from "next/image";
+import styles from "./about.module.css";
+
+const AboutPage = () => {
+  return (
+    <div>
+      <div className={styles.imgContainer}>
+        <Image src="/about.png" alt="About Image" fill className={styles.img} />
+      </div>
+    </div>
+  );
 };
 
-export default ContactPage;
+export default AboutPage;

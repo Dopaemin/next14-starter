@@ -1,0 +1,6 @@
+.imgContainer {
+  height: 50rem;
+  width: 50rem;
+  flex: 1;
+  position: relative;
+}
